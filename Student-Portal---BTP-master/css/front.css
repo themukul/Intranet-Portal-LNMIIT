@@ -1,0 +1,146 @@
+body{
+  background-color: #F7F6F9;
+}
+
+.nav-wrapper{
+  background-color: white;
+  color: #5a5a5a !important;
+  padding-left: 10px;
+}
+
+
+nav a{
+  color: #5a5a5a !important;
+}
+
+.cards-parent{
+  margin-top: -750px;
+  padding-left: 200px;
+
+
+}
+
+.card-panel{
+/* width: 350px; */
+  height: 250px;
+/*   display: inline-block; */
+}
+
+.card-notif{
+  width: 15px;
+  height: 15px;
+  background-color:red;
+  border: 1px solid red;
+  border-radius : 100%;
+  float: right;
+}
+
+.fa-calendar-alt{
+  color: #FFAEB1;
+  font-size: 60px;
+}
+
+.fa-paperclip{
+  color: #b64edf;
+  font-size: 60px;
+}
+
+.fa-graduation-cap{
+  color: #FEEF7F;
+  font-size: 60px;
+}
+
+.fa-envelope{
+  color: #65E22A;
+  font-size: 60px;
+}
+
+.fa-credit-card{
+  color: #5493FF;
+  font-size: 60px;
+}
+
+.fa-quote-right{
+  color: #FFD385;
+  font-size: 60px;
+}
+
+.fa-newspaper{
+  color: #DADADA;
+  font-size: 60px;
+}
+
+.fa-calendar-check{
+  color: #CEC590;
+  font-size: 60px;
+}
+
+.fa-ticket-alt{
+  color: #696fd7;
+  font-size: 60px;
+}
+
+.fa-desktop{
+  color: #bd85dd;
+  font-size: 60px;
+}
+
+.fa-compass{
+  color: #3ace79;
+  font-size: 60px;  
+}
+
+.fa-searchengin{
+  color: #FF60E0;
+  font-size: 60px; 
+}
+
+.card-title{
+  font:normal 25px 'Roboto', sans-serif;
+  margin-top: 40px;
+  color: #4a4a4a;
+}
+
+.card-description{
+  font: normal 15px 'Roboto', sans-serif;
+  color: #a4a4a4;
+  margin-top: 10px;
+}
+
+    header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+        
+.side-nav li{
+  list-style-type: block;
+    margin-top: 30px;
+    margin: 20px;
+    color: #000000;
+    margin-left: 60px;
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+    font:normal 14px 'Roboto', sans-serif; /* Full height */
+     /* Make it stick, even on scroll */
+    overflow: hidden; /* Enable scrolling if the sidenav has too much content */
+}
+.side-nav a{
+  color: #4a4a4a;
+  padding: 15px;
+  /*position: fixed;*/
+  margin-top: 0px;
+}
+.side-nav i{
+  padding: 5px;
+}
+.img-resp {
+    display: inline-block;
+    max-width: 20%;
+    height: auto;
+}

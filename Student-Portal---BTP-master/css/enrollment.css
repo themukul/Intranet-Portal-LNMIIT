@@ -1,0 +1,19 @@
+body{
+  background-color: #F7F6F9;
+}
+
+.card-title{
+  font:normal 25px 'Roboto', sans-serif;
+/*   margin-top: 0px; */
+  color: #4a4a4a;
+}
+
+.card-description{
+  font: normal 15px 'Roboto', sans-serif;
+  color: #a4a4a4;
+  margin-top: 10px;
+}
+
+.parent-wrap{
+  margin-top: 50px;
+}

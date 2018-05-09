@@ -1,0 +1,20 @@
+body{
+  background-color: #F7F6F9;
+}
+
+.material-branch{
+  font: normal 18px 'Roboto';
+}
+
+.material-course{
+  font: normal 15px 'Roboto';
+  color: #4a4a4a;
+}
+
+.material-parent-wrap{
+  margin-top: 50px;
+}
+
+.material-parent-wrap {
+  display: inline-block;
+}

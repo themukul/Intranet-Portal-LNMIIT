@@ -1,0 +1,56 @@
+body{
+  background-color: #F7F6F9;
+}
+
+.page-head{
+  margin-top: 50px;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.page-head .fa-user-circle{
+  color: #dadada;
+  font-size: 150px;
+}
+
+.form-head{
+  font: normal 25px 'Roboto';
+  color: #3d92f3;
+}
+
+.fa-pencil-alt{
+  color: #3d92f3;
+}
+
+.profile-wrap{
+  margin-top: 50px;
+/*   display: inline-block; */
+}
+
+.form-head{
+  margin: 20px 0px 25px 20px; 
+}
+
+.form-component{
+  margin: 20px 0px 25px 20px;
+}
+
+.form-title{
+  font: bold 20px 'Roboto';
+  color: #4a4a4a;
+}
+
+.form-details .form-entry{
+  font: normal 18px 'Roboto';
+}
+
+.edit-icon{
+  float: right;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.button{
+  padding-left: 530px;
+  margin-top: 40px;
+  margin-bottom:0px;
+}

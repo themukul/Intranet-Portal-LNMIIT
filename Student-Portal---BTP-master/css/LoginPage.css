@@ -1,0 +1,19 @@
+.super-wrap{
+	margin-top: 100px;
+}
+
+
+.notice-wrapper{
+	max-width: 350px;
+	border: 1px solid black;
+}
+
+.notice-wrapper h4{
+	background-color: #8c1515;
+		border-radius: 5px;
+		padding-left: 7px;
+		padding-top: 5px;
+		height: 40px;
+		color: #f7f7fb;
+
+}

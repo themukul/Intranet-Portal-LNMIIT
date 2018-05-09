@@ -1,0 +1,207 @@
+html,body {
+	margin: 0;
+	padding: 0;
+
+}
+
+body.my-login-page {
+	background-color: #f7fbfb;
+	font-size: 14px;
+	background-size:100% 100%;
+
+
+}
+.navbar-inverse {
+     background-color: #8c1515;
+     border-color: #808080;
+     color:#fff;
+     text-shadow: 1px 1px #808080;
+     font-weight: bolder;
+     font-stretch: expanded;
+     margin-bottom: -4px;
+
+
+}
+.navbar-inverse img{
+
+	width:85px;
+	height:55px;
+	 border-color: #8c1515;
+margin-right: 100px;
+
+}
+
+.my-login-page .brand {
+	width: 90px;
+	height: 90px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin: 40px auto;
+	box-shadow: 0 0 40px rgba(0,0,0,.05);
+
+}
+
+.my-login-page .brand img {
+	width: 100%;
+
+}
+
+.my-login-page .card-wrapper {
+
+
+	width: 400px;
+	margin: 0 auto;
+}
+.my-login-page .card-wrapper1 {
+
+
+	width: 400px;
+	height: 300px;
+	margin-top: 220px;
+	background-color: #fff;
+		border-radius: 5px;
+
+
+	border-color: #8c1515;
+}
+.my-login-page .card-wrapper1 h4{
+	background-color: #8c1515;
+		border-radius: 5px;
+		padding-left: 7px;
+		padding-top: 5px;
+		height: 40px;
+		color: #f7f7fb;
+
+}
+
+
+.my-login-page .card {
+	border-color: transparent;
+	box-shadow: 0 0 40px rgba(0,0,0,.05);
+	border-radius: 5px;
+
+}
+
+.my-login-page .card.fat {
+	padding: 10px;
+
+}
+
+.my-login-page .card .card-title {
+	margin-bottom: 28px;
+
+}
+
+.my-login-page .form-control {
+	border-width: 2.3px;
+	border-color: #999;
+
+
+
+}
+.my-login-page .form-control1 {
+	border-width: 2.3px;
+	border-color: #999;
+
+	
+
+
+}
+
+.my-login-page .form-group label {
+	width: 100%;
+
+
+
+
+}
+.my-login-page .form-group1 {
+	width: 100%;
+	padding-bottom: 100px;
+	padding-top: 0px;
+	margin-left: 5px;
+	height: 250px;
+	
+	
+
+
+
+}
+.my-login-page .form-group a {
+	border-radius: 113px;
+	background-color: #fffff0;
+	color:#666;
+
+	padding:0.5px;
+
+
+
+
+}
+
+.my-login-page .btn.btn-block {
+	padding: 12px 10px;
+		background-color: #8c1515;
+		border-color: #8c1515;
+
+
+}
+
+.my-login-page .margin-top20 {
+	margin-top: 18px;
+
+}
+
+.my-login-page .no-margin {
+	margin: 0;
+   font-weight: bolder;
+
+
+}
+
+.my-login-page .footer {
+	margin: 0px 0;
+	color: #888;
+	text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+	.my-login-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+
+
+	}
+}
+@media screen and (max-width: 425px) {
+	.my-login-page .card-wrapper1 {
+		width: 90%;
+		margin: 0 auto;
+
+
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+
+	}
+
+	.my-login-page .card.fat .card-body {
+		padding: 15px;
+
+	}
+}
+@media screen and (max-width: 320px) {
+	.my-login-page .card.fat {
+		padding: 0;
+
+	}
+
+	.my-login-page .card.fat .card-body1 {
+		padding: 15px;
+
+	}
+}
