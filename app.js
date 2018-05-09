@@ -41,7 +41,7 @@ passport.deserializeUser(User.deserializeUser());
 //============
 
 app.get("/", function(req, res){
-    res.render("home");
+    res.render("portal_login");
 });
 
 app.get("/dashboard", function(req, res){
@@ -64,7 +64,6 @@ app.get("/secret", isLoggedIn, function(req, res){
    res.render("secret"); 
 });
 
-
 app.get("/project_btp",function(req,res){
     Project_btp.find({},function(err,btp){
         if(err){
@@ -74,7 +73,6 @@ app.get("/project_btp",function(req,res){
         }
     });
 });
-
 
 app.get("/project_btp/new_btp", function(req,res){
     res.render("new_btp");
@@ -121,36 +119,32 @@ app.post("/project_mini",function(req,res){
 
 //show sign up form
 app.get("/register", function(req, res){
-   res.render("register"); 
+   res.render("portal_register"); 
 });
-
 
 //handling user sign up
 app.post("/register", function(req, res){
     User.register(new User({username: req.body.username, type: req.body.type}), req.body.password, function(err, user){
         if(err){
             console.log(err);
-            return res.render('register');
+            return res.render('portal_register');
         }
         passport.authenticate("local")(req, res, function(){
-           res.redirect("/secret");
-           
+           res.redirect("/dashboard"); 
         });
     });
-
 });
 
 // LOGIN ROUTES
 //render login form
 app.get("/login", function(req, res){
-   res.render("login"); 
+   res.render("portal_login"); 
 });
-
 
 //login logic
 //middleware
 app.post("/login",passport.authenticate("local", {
-        successRedirect: "/secret",                      
+        successRedirect: "/dashboard",                      
         failureRedirect: "/login",
     
     })
@@ -187,12 +181,10 @@ app.post("/loginteacher" ,function(req, res){
     }
 });
 
-
 app.get("/logout", function(req, res){
     req.logout();
     res.redirect("/");
 });
-
 
 function isLoggedIn(req, res, next){
     console.log(req.isAuthenticated(), req.username)
@@ -201,7 +193,6 @@ function isLoggedIn(req, res, next){
     }
     res.redirect("/login");
 }
-
 
 app.listen(process.env.PORT || 3000, process.env.IP, function(){
     console.log("server started.......");
