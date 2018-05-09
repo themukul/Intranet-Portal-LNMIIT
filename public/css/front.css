@@ -21,9 +21,7 @@ nav a{
 }
 
 .card-panel{
-/* width: 350px; */
   height: 250px;
-/*   display: inline-block; */
 }
 
 .card-notif{
@@ -126,14 +124,12 @@ nav a{
     width: 25%;
     height: 100%;
     padding: 20px;
-    font:normal 14px 'Roboto', sans-serif; /* Full height */
-     /* Make it stick, even on scroll */
-    overflow: hidden; /* Enable scrolling if the sidenav has too much content */
+    font:normal 14px 'Roboto', sans-serif;
+    overflow: hidden;
 }
 .side-nav a{
   color: #4a4a4a;
   padding: 15px;
-  /*position: fixed;*/
   margin-top: 0px;
 }
 .side-nav i{
