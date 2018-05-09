@@ -60,9 +60,9 @@ app.get("/profile", function(req, res){
     res.render("profile");
 });
 
-app.get("/secret", isLoggedIn, function(req, res){
-   res.render("secret"); 
-});
+// app.get("/secret", isLoggedIn, function(req, res){
+//    res.render("secret"); 
+// });
 
 app.get("/project_btp",function(req,res){
     Project_btp.find({},function(err,btp){
